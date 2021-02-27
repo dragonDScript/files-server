@@ -1,5 +1,5 @@
 build:
 	deno bundle index.js >> dist/bundle.js
-	deno compile --unstable --output dist/server index.js
+	deno compile --unstable --output dist/server --allow-env --allow-net --allow-read index.js
 dev:
 	PORT=${PORT} deno run --allow-env --allow-read --allow-net index.js ${LOCATION}
