@@ -1,0 +1,24 @@
+{
+  "name": "@dragondscript/files-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "make build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dragonDScript/files-server.git"
+  },
+  "keywords": [
+    "files-server",
+    "deno"
+  ],
+  "author": "dragonDScript",
+  "license": "",
+  "private": false,
+  "bugs": {
+    "url": "https://github.com/dragonDScript/files-server/issues"
+  },
+  "homepage": "https://github.com/dragonDScript/files-server#readme"
+}
